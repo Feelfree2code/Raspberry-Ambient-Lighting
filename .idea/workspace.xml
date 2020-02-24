@@ -1,70 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="RaspberryPiAmbiant:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dece379-adac-4bbd-9d5f-bba137e55564" name="Default Changelist" comment="" />
+    <list default="true" id="2dece379-adac-4bbd-9d5f-bba137e55564" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaspberryPiAmbiant.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RaspberryPiAmbiant.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kagan/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kagan/client/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YGFgMqYl2QzeHsnugIbGlZdQZW" />
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="company" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pi4j-1.3-SNAPSHOT/lib" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -77,6 +48,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -90,5 +66,44 @@
       <updated>1582561134719</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="445" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582579042323">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="445" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1582579042323" />
+    <state x="444" y="168" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582562375316">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="444" y="168" key="#com.intellij.ide.util.TreeClassChooserDialog/62.0.1304.768@62.0.1304.768" timestamp="1582562375316" />
+    <state x="494" y="139" key="FileChooserDialogImpl" timestamp="1582563224464">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="494" y="139" key="FileChooserDialogImpl/62.0.1304.768@62.0.1304.768" timestamp="1582563224464" />
+    <state width="1815" height="294" key="GridCell.Tab.0.bottom" timestamp="1582579362893">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1261" height="192" key="GridCell.Tab.0.bottom/62.0.1304.768@62.0.1304.768" timestamp="1582563242477" />
+    <state width="1815" height="294" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1582579362893" />
+    <state width="1815" height="294" key="GridCell.Tab.0.center" timestamp="1582579362893">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1261" height="192" key="GridCell.Tab.0.center/62.0.1304.768@62.0.1304.768" timestamp="1582563242477" />
+    <state width="1815" height="294" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1582579362893" />
+    <state width="1815" height="294" key="GridCell.Tab.0.left" timestamp="1582579362892">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1261" height="192" key="GridCell.Tab.0.left/62.0.1304.768@62.0.1304.768" timestamp="1582563242476" />
+    <state width="1815" height="294" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1582579362892" />
+    <state width="1815" height="294" key="GridCell.Tab.0.right" timestamp="1582579362893">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1261" height="192" key="GridCell.Tab.0.right/62.0.1304.768@62.0.1304.768" timestamp="1582563242477" />
+    <state width="1815" height="294" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1582579362893" />
+    <state x="250" y="0" key="SettingsEditor" timestamp="1582579286088">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="194" y="0" key="SettingsEditor/62.0.1304.768@62.0.1304.768" timestamp="1582574074872" />
+    <state x="250" y="0" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1582579286088" />
   </component>
 </project>
