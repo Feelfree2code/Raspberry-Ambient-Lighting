@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using WebAPI.Data;
 
 namespace WebAPI.Controllers
 {
@@ -21,13 +22,18 @@ namespace WebAPI.Controllers
         [HttpGet()]
         public ActionResult Get()
         {
-            return Ok();
+            LightResponse result = new LightResponse();
+            result.Mode = LiveData.CurrentMode;
+
+            return Ok(result);
         }
 
-        [HttpPost("{mode}")]
-        public ActionResult SetMode(string mode)
+        [HttpPost]
+        public ActionResult SetMode([FromBody]LightResponse value)
         {
-
+            if(value != null){
+                LiveData.CurrentMode = value.Mode;
+            }
 
             return Ok();
         }
