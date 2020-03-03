@@ -21,10 +21,21 @@ namespace WebAPI
         }
 
         public IConfiguration Configuration { get; }
+        readonly string myCorsPolicy = "apiCorsPolicy";
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            options.AddPolicy(myCorsPolicy, builder =>
+            {
+                builder
+                    .WithOrigins(new[] { "http://localhost:4300" })
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .AllowCredentials();
+            }));
+
             services.AddControllers();
         }
 
@@ -39,7 +50,7 @@ namespace WebAPI
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            app.UseCors(myCorsPolicy);
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

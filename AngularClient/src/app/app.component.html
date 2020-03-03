@@ -1,0 +1,40 @@
+<nav class="navbar navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">Device Manager</a>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-4">
+
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">My Light</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Location: <i>Kitchen</i></h6>
+          <p class="card-text">Raspberry PI Ambient Light V1.0</p>
+
+          <p class="card-text"><b>Current Color: </b> <i>{{currentColor}}</i></p>
+          
+          <div class="btn-group">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Color Pattern
+            </button>
+            <div class="dropdown-menu">              
+              <a class="dropdown-item" href="#" *ngFor="let item of colorOptions" [attr.value]="item.value" (click)="setColor(item)">{{item.text}}</a>    
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-4">
+      
+    </div>
+
+    <div class="col-4">
+      
+    </div>
+    
+  </div>
+</div>

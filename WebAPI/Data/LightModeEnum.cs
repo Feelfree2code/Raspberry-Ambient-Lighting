@@ -4,8 +4,8 @@ namespace WebAPI.Data
 {
     public enum LightModeEnum
     {
-        Mod1,
-        Mod2,
-        Mod3
+        Mod1 = 1,
+        Mod2 = 2,
+        Mod3 = 3
     }
 }
